@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+    <link rel="icon" href="assets/logo.png" sizes="32x32" type="image/png">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -19,12 +21,13 @@
 </head>
 
 <body>
+    
 
     <div id="particles-js"></div>
 
     <nav id="navbar">
         <a href="/">
-        <img class="left" src="images/logo.png" style="width:50px; display: inline;">
+        <img class="left" src="assets/logo.png" style="width:50px; display: inline;">
         </a>
         <ul class="left">
             <li><a href="#WHOAMI">WHOAMI</a></li>
@@ -44,18 +47,18 @@
         </div>
     </nav>
 
-    
-    
-    <div id="image-container">
-        <img src="images/background.png">
         
-        <div class="text-area">
-            <h1>Yo World!</h1>
+    <div class="hero">
+        <div class="overlay"></div>
+        <video loop muted autoplay="autoplay">
+            <source src="assets/loop.mp4" type="video/mp4" />
+        </video>
 
-            <h1><div id="IAM">
-            </div></h1>
-
+        <div class="hero-text">
+            <h2 class="green">Yo World!</h2>
+            <h2><div id="IAM"></div></h2>
         </div>
+        
     </div>
 
     
