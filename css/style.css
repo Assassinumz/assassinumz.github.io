@@ -141,14 +141,63 @@ nav li {
 
 .box {
     position: relative;
-    width: 85%;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
     padding: 10px 20px;
+}
+
+/*
+* WHOAMI
+*/
+
+#WHOAMI {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.9);
     margin: 40px auto;
     text-align: center;
 }
 
+#WHOAMI h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#WHOAMI p {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+#WHOAMI img {
+    display: inline;
+    width: 300px;
+}
+
+#WHOAMI br {
+    display: inline;
+
+}
+
+.about-left {
+    float: left;
+    margin-right: 30px;
+}
+
+.about-center {
+    text-align: center;
+    display: inline;
+    padding: 10px;
+}
+
+.about-right {
+    float: right;
+    margin-left: 30px;
+}
 
 /*
 * Skills
