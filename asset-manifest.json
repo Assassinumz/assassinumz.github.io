@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ec876db.css",
+    "main.js": "/static/js/main.7f96fbb3.js",
+    "static/media/logo.png": "/static/media/logo.f41a24f5fcc50fe51825.png",
+    "static/media/hello.svg": "/static/media/hello.ab0b0c62f3b7f7738ba039b279cb2425.svg",
+    "static/media/flask.svg": "/static/media/flask.372937b53c14c3c02b50797e9b38c13d.svg",
+    "static/media/react.svg": "/static/media/react.7700620e675b2472a53dffb728e1b434.svg",
+    "static/media/hero.svg": "/static/media/hero.d0abf5aa7b3b78f345dbf20c88436448.svg",
+    "static/media/electron.svg": "/static/media/electron.743c23e7a34248cdd76928344973da94.svg",
+    "static/media/mysql.svg": "/static/media/mysql.aff3d4cad8b014e1c1c88271ef9a2f5c.svg",
+    "static/media/docker.svg": "/static/media/docker.d145b7a892922bdd77d72330d7f28f8c.svg",
+    "static/media/python.svg": "/static/media/python.1efac5d5b0e3fbee5dc82068d3716b50.svg",
+    "static/media/css.svg": "/static/media/css.a651315629b3140b3d97c8c3def50f7a.svg",
+    "static/media/html.svg": "/static/media/html.784acc4e34c7a8051130abc7165aec6f.svg",
+    "static/media/django.svg": "/static/media/django.6985f619ed91041b156fffa361329287.svg",
+    "index.html": "/index.html",
+    "static/media/mongo.svg": "/static/media/mongo.64aabbfa8c970039fce277dc015dce8e.svg",
+    "static/media/c_plus_plus.svg": "/static/media/c_plus_plus.041d529b6debf3f36109a48aeb059ea4.svg",
+    "static/media/javascript.svg": "/static/media/javascript.64d9e0e76154cf546e6a54e6f4bfb9ac.svg",
+    "static/media/C.svg": "/static/media/C.4cb89c1b1769d28edd9b7a8ce1425a76.svg",
+    "static/media/git.svg": "/static/media/git.9f102b8f3a986835c6c8764bac56f29c.svg",
+    "static/media/tailwindcss.svg": "/static/media/tailwindcss.017e1e304e12384d156d384f40a4b5f8.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.19c3fd09c600ab7007343a5d6cc5235a.svg",
+    "static/media/dart.svg": "/static/media/dart.ee73b1b23b5114e2993fc2bc6fe18b18.svg",
+    "static/media/figma.svg": "/static/media/figma.c067749beb553af4068c25e003227e96.svg",
+    "static/media/vue.svg": "/static/media/vue.50c5c423ead44931fb971634d0e85b76.svg",
+    "static/media/azure.svg": "/static/media/azure.f33b0522dbb907ecb1d06f7164c9cb3f.svg",
+    "main.1ec876db.css.map": "/static/css/main.1ec876db.css.map",
+    "main.7f96fbb3.js.map": "/static/js/main.7f96fbb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec876db.css",
+    "static/js/main.7f96fbb3.js"
+  ]
+}
