@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/2f0ea8e786.js" crossorigin="anonymous"></script>
+	
+    <title>Assassin umz</title>
+
+  </head>
+  <body>
+
+    <div id="root"></div>
+	<script src="https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
+	<script>
+		$(window).on('load', function() {
+			$('.loader').delay(500).fadeOut()
+			$('body').css('overflow', 'visible')
+		})
+
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+
+			if (prevScrollpos > currentScrollPos) {
+				$("#nav").css("top", "0")
+			} else {
+				if($("#mobile-nav").hasClass('flex')) {
+					$("#menu-toggle").click()
+				}
+				$("#nav").css("top", "-70px")
+			}
+			prevScrollpos = currentScrollPos;
+			
+			if(window.innerWidth <= 800) {
+				return
+			}
+
+			if(currentScrollPos>0){
+				nav.classList.add("add-shadow");
+			}else{
+				nav.classList.remove("add-shadow");
+			}
+		}
+	</script>
+  </body>
+</html>
