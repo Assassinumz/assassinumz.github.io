@@ -24,7 +24,7 @@ import figma from '../assets/tech/figma.svg'
 
 function Skill(props) {
 	return (
-		<div className={'w-48 md:w-36 px-1 py-2 md:py-1 m-2 rounded-lg flex flex-row items-center bg-slate-800 transition ease-in-out duration-300 ' + `${props.color}`}>
+		<div className={'w-48 md:w-36 px-1 py-2 md:py-1 m-2 rounded-lg cursor-pointer flex flex-row items-center bg-slate-800 transition ease-in-out duration-300 ' + `${props.color}`}>
 			<img className="w-7" src={props.img}></img>
 			<p className="ml-1">{props.sname}</p>
 		</div>

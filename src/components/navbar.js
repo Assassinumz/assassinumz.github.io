@@ -5,7 +5,7 @@ function Navbar() {
     const [toggleMenu, setToggleMenu] = React.useState(false)
     return (
         <>
-        <div id="nav" className="w-full fixed">
+        <div id="nav" className="w-full fixed z-20">
         <nav id="navbar" className="w-full flex justify-between md:justify-center items-center py-2 font-poppins">
             <div className="hidden md:block nav-cont">
                 <ul className="nav-ul flex flex-row">
@@ -19,7 +19,9 @@ function Navbar() {
             </div>
 
             <div className="nav-cont">
-                <img className="nav-logo" src={logo}></img>
+                <a href="/">
+                    <img className="nav-logo" src={logo}></img>
+                </a>
             </div>
 
             <div className="hidden md:block nav-cont">
@@ -44,7 +46,7 @@ function Navbar() {
             </div>
         </nav>
         {toggleMenu &&
-            <div id="mobile-nav" className="flex md:hidden w-screen justify-center text-center">
+            <div id="mobile-nav" className="flex md:hidden w-screen justify-center text-center border-b border-slate-100/10">
                 <ul className="flex flex-col">
                     <li className="py-5">
                         <a href="#whoami">
