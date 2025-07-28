@@ -10,7 +10,7 @@ const Hero = () => {
 			<h1 className="text-2xl md:text-3xl font-semibold mt-5">
 			<Typewriter
 				options={{
-					strings: ["I'm Assassin umz.", "I'm a 1337.", "I'm a Developer.", "I'm a Gamer."],
+					strings: ["I'm Umraz.", "I'm a 1337.", "I'm a Developer.", "I'm a Gamer."],
 					autoStart: true,
 					loop: true,
 				}}
